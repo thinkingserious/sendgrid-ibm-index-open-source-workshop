@@ -64,7 +64,7 @@ Click the "Parameters" link.
 bx wsk action invoke --result helloSendGrid
 ```
 
-<a name="usage">
+<a name="usage"></a>
 # Usage
 
 In addition the [Quick Start](#quick-start), you can access your IBM Cloud Function using CURL.
@@ -87,17 +87,17 @@ Click the "Endpoints" link.
 
 Copy the commands under "CURL" and replace API-KEY with $IBM_CLOUD_API_KEY.
 
-<a name="use-cases">
+<a name="use-cases"></a>
 # Use Cases
 
 Send an email using the command line.
 
-<a name="announcements">
+<a name="announcements"></a>
 # Announcements
 
 Come join me at [IBM Index 2018](http://send.gd/2EwBh2M) on 2/2/18.
 
-<a name="roadmap">
+<a name="roadmap"></a>
 # Roadmap
 
 Add the ability to pass in various paramaters such as to email, from email, subject and body.
@@ -108,17 +108,17 @@ Add tests.
 
 Update documentation.
 
-<a name="contribute">
+<a name="contribute"></a>
 # How to Contribute
 
 I encourage contribution to this project, please see our [CONTRIBUTING](https://github.com/thinkingserious/sendgrid-ibm-index-open-source-workshop/blob/master/CONTRIBUTING.md) guide for details.
 
-<a name="troubleshooting">
+<a name="troubleshooting"></a>
 # Troubleshooting
 
 Please see the [troubleshooting guide](https://github.com/thinkingserious/sendgrid-ibm-index-open-source-workshop/blob/master/TROUBLESHOOTING.md) for common library issues.
 
-<a name="about">
+<a name="about"></a>
 # About
 
 sendgrid-ibm-index-open-source-workshop is supported by the SendGrid [Developer Experience Team](mailto:dx@sendgrid.com).
