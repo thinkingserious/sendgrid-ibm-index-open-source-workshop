@@ -33,6 +33,8 @@ This repo is a companion to a [workshop given at IBM Index 2018](http://send.gd/
 <a name="installation"></a>
 # Installation
 
+Update the email addresses in `app.py`.
+
 ```bash
 bx plugin install Cloud-Functions -r Bluemix
 bx login -a api.ng.bluemix.net -o <YOUR IBM CLOUD USERNAME> -s dev
@@ -42,7 +44,7 @@ zip -r helloSendGrid.zip virtualenv __main__.py app.py
 bx wsk action create helloSendGrid --kind python-jessie:3 helloSendGrid.zip
 ```
 
-To update after making a code change:
+The following is the procedure for updating your IBM Cloud Function after making a code change:
 
 ```bash
 zip -r helloSendGrid.zip virtualenv __main__.py app.py
