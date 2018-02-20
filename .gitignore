@@ -100,3 +100,5 @@ virtualenv/
 
 # mypy
 .mypy_cache/
+
+*.zip
